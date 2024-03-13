@@ -7,6 +7,7 @@ from .remove import Remove
 from .run import Run
 from .scaffold import Scaffold
 from .show import Show
+from .create_aura import CreateAura
 
 __all__ = (
     "AuditCommand",
@@ -18,4 +19,5 @@ __all__ = (
     "Run",
     "Scaffold",
     "Show",
+    "CreateAura"
 )

@@ -11,6 +11,7 @@ from .run_copy import RunCopy
 from .run_pipeline import RunPipeline
 from .run_project_cookiecutter import RunProjectCookiecutter
 from .show_pipelines import ShowPipelines
+from .create_aura_instance import CreateAuraInstance
 
 __all__ = (
     "AddPipelineToProject",
@@ -26,4 +27,5 @@ __all__ = (
     "RunProjectCookiecutter",
     "RunAudit",
     "RunCopy",
+    "CreateAuraInstance"
 )
